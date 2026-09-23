@@ -23,9 +23,9 @@ should) delete the TODO comment.
 
 You'll find these classes to be helpful:
 
-1. [`java.util.Scanner`](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Scanner.html)
-2. [`java.util.Random`](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Random.html)
-3. [`java.util.Arrays`](https://docs.oracle.com/en/java/javase/21/docs/api/java.base/java/util/Arrays.html)
+1. [`java.lang.IO`](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/lang/IO.html)
+2. [`java.util.Random`](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Random.html)
+3. [`java.util.Arrays`](https://docs.oracle.com/en/java/javase/25/docs/api/java.base/java/util/Arrays.html)
 
 Sample output of a completed lab 3 is provided to help you see what is desired for each part.
 
@@ -56,21 +56,23 @@ Part 3 (5pts):
 [5, 6, 6, 8, 8, 9, 9, 9, 9, 10, 15, 15, ]
 ```
 
-## Q1: What was not followed for the `JavaFUNdamentals` `class`?
+## Q1: What was not followed for the `JavaFUNdamentals` file?
 
-[Answer here]
+**Hint:** Remember that file names follow the same naming scheme as classes.
+
+Answer: 
 
 ## Q2 (2pts): Why can't you use a for-each loop to populate an array?
 
-[Answer here]
+Answer: 
 
 ## Q3: What kind of class is `Arrays`?
 
-[Answer here]
+Answer: 
 
 ## Q4 (2pts): What does the last line of code in the `part3` method do?
 
-[Answer here]
+Answer: 
 
 You will often encounter code written in a way or using an API that you are not familiar with.
 Taking a look at the last line of code, can you reason through what it is doing? 
@@ -78,7 +80,7 @@ Taking a look at the last line of code, can you reason through what it is doing?
 We could dedicate an entire class period explaining this one line of code. In short, the [Stream API]((https://docs.oracle.com/en/java/javase/21/docs/api//java.base/java/util/stream/Stream.html)) is Java's way of implementing
 functional programming! A more succinct and powerful way to write code (when used correctly).
 
-We'll cover this in more depth later. However it will probably pop up here and there throughout the course. 
+We might cover this in more depth later. However it will probably pop up here and there throughout the course. 
 
 ## Task 3: Ensure all your code is set to run.
 
@@ -87,11 +89,7 @@ It is common to comment out code that you don't quite care about running during 
 Basically, always ensure that no code is commented out prior to submitting your files to D2L. Rather, give your code one final
 test run to make sure everything works as expected!
 
-## Task 4: Add your name as a new author to the class!
-
-This requires you to create a new `@author` tag in the class's javadoc.
-
-## Task 5: Submit to D2L Your:
+## Task 4: Submit to D2L Your:
 
 1. filled out version of this README.
 2. completed Java source file.
