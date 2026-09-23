@@ -6,7 +6,9 @@ void main() {
 }
 
 void part1() {
-    IO.println("\nPart 1 (11pts) :\n");
+    IO.println("""
+    Part 1 (11pts):
+    """);
 
     // TODO: (2pts) Ask the user how many integers they will enter and store that in a constant.
     //  Assume that only a valid integer will be entered.
@@ -20,7 +22,10 @@ void part1() {
 }
 
 int[] part2() {
-    IO.println("\nPart 2 (12pts):\n");
+    IO.println("""
+
+    Part 2 (12pts):
+    """);
 
     // TODO: (1pt) Create a new Random object and store a reference to it.
 
@@ -42,9 +47,11 @@ int[] part2() {
 }
 
 void part3(int[] ints) {
-    IO.println("\nPart 3 (5pts):\n");
-
-    IO.print("[");
+    IO.print("""
+    
+    Part 3 (5pts):
+    
+    [""");
 
     // TODO: (5pts) For each value in your array:
     //  Print it if it's between 5 and 10 inclusive.
