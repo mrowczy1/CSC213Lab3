@@ -32,7 +32,7 @@ Sample output of a completed lab 3 is provided to help you see what is desired f
 Your output should be formatted similarly. Obviously the numbers can and will be different.
 
 ```
-Part 1 (12pts):
+Part 1 (11pts):
 
 How many integers will you be entering?: 3
 Please enter in 3 integers:
@@ -43,7 +43,7 @@ Integer 3: 3
 ```
 
 ```
-Part 2 (13pts):
+Part 2 (12pts):
 
 Original array: [3, 1, 14, 6, 6, 8, 10, 2, 13, 5, 4, 9, 9, 9, 9, 8, 15, 2, 7, 14, 11, 3, 12, 15, 7, 7, 13, 7, 13, 2]
 Sorted array: [1, 2, 2, 2, 3, 3, 4, 5, 6, 6, 7, 7, 7, 7, 8, 8, 9, 9, 9, 9, 10, 11, 12, 13, 13, 13, 14, 14, 15, 15]
